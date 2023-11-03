@@ -30,7 +30,7 @@ High-frequency trading (HFT) is a type of algorithmic trading that uses powerful
 
 ### Datasets
 We will use the following datasets in our project:
-* Crypto
+* Cryptocurrencies from S&P500
 
 ### Overview of Tasks
 * Data cleaning and formatting
