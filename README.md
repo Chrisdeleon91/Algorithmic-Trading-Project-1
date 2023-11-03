@@ -8,7 +8,7 @@ High-frequency trading (HFT) is a type of algorithmic trading that uses powerful
 
 * **System Design & Architecture**: To be led by Christopher, outlining the main components of the trading system and how they will interact.
 
-* **Algorithm Development**: Chris and Dino will collaborate to design, test and optimize our high-frequency trading algorithms using Zipline Reloaded.
+* **Algorithm Development**: Chris and Dino will collaborate to design, test and optimize our high-frequency trading algorithms using Backtrader.
 
 * **Interface Design**: Mike will take the helm in designing a sleek, intuitive, and interactive interface using Streamlit, ensuring the system is user-friendly and efficient.
 
