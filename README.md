@@ -1,55 +1,83 @@
-# Group-Project-1
+# HFT Algorithmic Trading
 
-Bard Zipline
+### Authors: Christopher De Leon, Dino Krezovikj, Mike West, Victor Andujar
 
-Just with  "... apis and  monte carlo simulations" and graphs to visualize gains, can bring in historic data and live data and doing monte carlo simulations to do results, streamlit to make an app? Look at streamlit examples
-1.	Pick stocks through monte carlo simulations
-2.	Figure out hft alogrithm
-3.	Do hft alogirthm with its historic data?
-4.	Run through streamlit 
+### Introduction
 
-Sure. Here is a step-by-step guide to implementing a high-frequency trading (HFT) algorithm in Python using the Zipline library:
-1.	Install Zipline. You can install Zipline using the following command:
-pip install zipline
-2.	Create a new Python file. Create a new Python file and name it my_strategy.py.
-3.	Import the Zipline library. Add the following line to the top of your Python file:
-Python
-import zipline
-4.	Define your strategy class. Create a new class that inherits from zipline.TradingAlgorithm. This class will contain the code for your HFT algorithm.
-5.	Initialize your strategy class. In the constructor of your strategy class, initialize any variables that you will need in your algorithm.
-6.	Implement the handle_data() method. The handle_data() method is called on every bar of data. In this method, you will need to implement your trading logic.
-7.	Create a Zipline backtest. Create a new Zipline backtest object and pass in your strategy class as the parameter.
-8.	Run the backtest. Call the run() method on the backtest object. This will run your algorithm against the specified historical data.
-9.	Print the results. Once the backtest is finished, you can print the results by calling the print() method on the backtest object.
-This is a very simple example, but it shows the basic principles of HFT algorithm development. You can use this code as a starting point to develop your own HFT algorithm.
-Once you have developed your HFT algorithm, you can deploy it in a live trading environment. However, it is important to backtest and paper trade your algorithm thoroughly before deploying it in a live trading environment. Backtesting allows you to test your algorithm against historical data, while paper trading allows you to test your algorithm against real-time data without risking any money.
-Important note: HFT is a complex and competitive field. HFT firms typically have access to sophisticated technology and large amounts of data. It is difficult for individual traders to compete.
-Here is a simple example of an HFT algorithm in Python using Zipline:
-Python
-import zipline
+High-frequency trading (HFT) is a type of algorithmic trading that uses powerful computers and complex software to execute trades at very high speeds. HFT firms typically trade large volumes of securities, such as stocks, bonds, and currencies and they generate profits by exploiting tiny price discrepancies in the market. In this project, we propose to develop a HFT algorithmic trading system. Our goal is to create a profitable system that can trade cryptocurrencies at high speeds.  
 
-class MyStrategy(zipline.TradingAlgorithm):
+* **System Design & Architecture**: To be led by Christopher, outlining the main components of the trading system and how they will interact.
 
-    def __init__(self):
-        self.macd = zipline.MACD()
+* **Algorithm Development**: Chris and Dino will collaborate to design, test and optimize our high-frequency trading algorithms using Backtrader.
 
-    def handle_data(self, data):
-        # Calculate the MACD
-        macd = self.macd(data['price'])
+* **Interface Design**: Mike will take the helm in designing a sleek, intuitive, and interactive interface using Streamlit, ensuring the system is user-friendly and efficient.
 
-        # Cross the MACD signal line
-        if macd > macd.signal:
-            # Buy the stock
-            self.order('AAPL', 100)
-        elif macd < macd.signal:
-            # Sell the stock
-            self.order('AAPL', -100)
+* **Data Management**: Data sourcing, formatting and data management.
 
-# Create a Zipline backtest
-backtest = zipline.Backtest(MyStrategy(), start='2023-01-01', end='2023-10-10')
+* **Integration & Testing**: The team will collaborate in this final phase to integrate all system components, followed by rigorous testing to ensure optimal performance.
 
-# Run the backtest
-results = backtest.run()
+### Research Questions
+**Our research questions are as follows**:
+* Which API/library to use?
+* Does Zipline work, what are alternatives?
+* How do we actually create an algorithm that will be profitable?
+* What source should we use?
+* What financial instruments will the algorithm trade?
+* How will the algorithm enter and exit trades?
+* What specific trading strategies will the HFT system employ?
+* How can these strategies be optimized?
+* What are the risks of HFT trading?
 
-# Print the results
-print(results)
+### Datasets
+We will use the following datasets in our project:
+* Cryptocurrencies from S&P500
+
+### Overview of Tasks
+* Data cleaning and formatting
+* Algorithm development
+* Visualization
+* Integration
+* Backtesting
+* Paper trading and optimization
+
+### Tasks in detail
+
+Our project will be divided into the following tasks:
+
+**Data Cleaning and Formatting**
+
+We will use Pandas to clean and format the cryptocurrency dataset. This will involve removing any errors in the data, converting the data to the correct format and creating any new columns that are needed.
+
+**Algorithm Development**
+
+We will use a library/API, such as Zipline or PyFinance, to implement our HFT algorithm. We will need to develop a trading strategy that can identify and exploit profitable trading opportunities in the cryptocurrency market.
+
+**Visualization**
+
+We will use PyViz, GeoView, and Hvplot to create six to eight visualizations of our data. These visualizations will help us to understand the data and to identify any potential trading opportunities.
+
+**Integration**
+
+We will use Streamlit to integrate the six to eight visualizations required. Streamlit will allow us to create a web-based dashboard that will make it easy to monitor the performance of our trading system.
+
+**Backtesting**
+
+We will backtest our trading system using historical data. This will allow us to evaluate the performance of our system in different market conditions.
+
+**Paper Trading**
+
+Once we are satisfied with the performance of our system in backtesting, we will deploy it to a paper trading account. This will allow us to test our system in real-world market conditions without risking any real money.
+
+**Optimization**
+
+We will monitor the performance of our trading system in paper trading and make adjustments to our algorithm as needed. Our goal is to optimize our system to generate the highest possible returns.
+
+### Conclusion
+
+We believe that this project has the potential to develop a profitable HFT algorithmic trading system for cryptocurrencies. We are committed to working hard to complete this project on time and within budget. We look forward to sharing our results with the class and the instructional team.
+
+### Project Proposal
+
+![image](https://github.com/Chrisdeleon91/HFT-Project-1/assets/22796940/be26560c-0d7f-40be-be7a-b16c52159081)
+
+![Picture](https://www.columbia.edu/content/themes/custom/columbia/assets/img/cu-header.svg)
