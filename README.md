@@ -1,14 +1,14 @@
-# Title: HFT Algorithmic Trading
+# HFT Algorithmic Trading
 
 ### Authors: Christopher De Leon, Dino Krezovikj, Mike West, Victor Andujar
 
 ### Introduction
 
-High-frequency trading (HFT) is a type of algorithmic trading that uses powerful computers and complex software to execute trades at very high speeds. HFT firms typically trade large volumes of securities, such as stocks, bonds, and currencies, and they generate profits by exploiting tiny price discrepancies in the market. In this project, we propose to develop a HFT algorithmic trading system. Our goal is to create a profitable system that can trade cryptocurrencies at high speeds.  
+High-frequency trading (HFT) is a type of algorithmic trading that uses powerful computers and complex software to execute trades at very high speeds. HFT firms typically trade large volumes of securities, such as stocks, bonds, and currencies and they generate profits by exploiting tiny price discrepancies in the market. In this project, we propose to develop a HFT algorithmic trading system. Our goal is to create a profitable system that can trade cryptocurrencies at high speeds.  
 
 * **System Design & Architecture**: To be led by Christopher, outlining the main components of the trading system and how they will interact.
 
-* **Algorithm Development**: Chris and Dino will collaborate to design, test, and optimize our high-frequency trading algorithms using Zipline Reloaded.
+* **Algorithm Development**: Chris and Dino will collaborate to design, test and optimize our high-frequency trading algorithms using Zipline Reloaded.
 
 * **Interface Design**: Mike will take the helm in designing a sleek, intuitive, and interactive interface using Streamlit, ensuring the system is user-friendly and efficient.
 
@@ -16,24 +16,21 @@ High-frequency trading (HFT) is a type of algorithmic trading that uses powerful
 
 * **Integration & Testing**: The team will collaborate in this final phase to integrate all system components, followed by rigorous testing to ensure optimal performance.
 
-
-
 ### Research Questions
 **Our research questions are as follows**:
 * Which API/library to use?
-* Does Zipline-reloaded work, what are alternatives?
+* Does Zipline work, what are alternatives?
 * How do we actually create an algorithm that will be profitable?
 * What source should we use?
-* What Financial instruments will the Algorithm trade?
-* How will the Algorithm enter and exit trades?
+* What financial instruments will the algorithm trade?
+* How will the algorithm enter and exit trades?
 * What specific trading strategies will the HFT system employ?
 * How can these strategies be optimized?
 * What are the risks of HFT trading?
 
 ### Datasets
 We will use the following datasets in our project:
-
-Crypto
+* Crypto
 
 ### Overview of Tasks
 * Data cleaning and formatting
@@ -49,7 +46,7 @@ Our project will be divided into the following tasks:
 
 **Data Cleaning and Formatting**
 
-We will use Pandas to clean and format the cryptocurrency dataset. This will involve removing any errors in the data, converting the data to the correct format, and creating any new columns that are needed.
+We will use Pandas to clean and format the cryptocurrency dataset. This will involve removing any errors in the data, converting the data to the correct format and creating any new columns that are needed.
 
 **Algorithm Development**
 
@@ -84,4 +81,3 @@ We believe that this project has the potential to develop a profitable HFT algor
 ![image](https://github.com/Chrisdeleon91/HFT-Project-1/assets/22796940/be26560c-0d7f-40be-be7a-b16c52159081)
 
 ![Picture](https://www.columbia.edu/content/themes/custom/columbia/assets/img/cu-header.svg)
-
