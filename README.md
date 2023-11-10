@@ -1,10 +1,10 @@
-# HFT Algorithmic Trading
+# Algorithmic Trading
 
 ### Authors: Christopher De Leon, Dino Krezovikj, Mike West, Victor Andujar
 
 ### Introduction
 
-High-frequency trading (HFT) is a type of algorithmic trading that uses powerful computers and complex software to execute trades at very high speeds. HFT firms typically trade large volumes of securities, such as stocks, bonds, and currencies and they generate profits by exploiting tiny price discrepancies in the market. In this project, we propose to develop a HFT algorithmic trading system. Our goal is to create a profitable system that can trade cryptocurrencies at high speeds.  
+Algorithmic trading that uses powerful computers and complex software to execute trades at very high speeds. Firms typically trade large volumes of securities, such as stocks, bonds, and currencies and they generate profits by exploiting tiny price discrepancies in the market. In this project, we propose to develop an lgorithmic trading system. Our goal is to create a profitable system that can trade cryptocurrencies at high speeds.  
 
 * **System Design & Architecture**: To be led by Christopher, outlining the main components of the trading system and how they will interact.
 
@@ -74,7 +74,7 @@ We will monitor the performance of our trading system in paper trading and make 
 
 ### Conclusion
 
-We believe that this project has the potential to develop a profitable HFT algorithmic trading system for cryptocurrencies. We are committed to working hard to complete this project on time and within budget. We look forward to sharing our results with the class and the instructional team.
+We believe that this project has the potential to develop a profitable algorithmic trading system for cryptocurrencies. We are committed to working hard to complete this project on time and within budget. We look forward to sharing our results with the class and the instructional team.
 
 ### Project Proposal
 
