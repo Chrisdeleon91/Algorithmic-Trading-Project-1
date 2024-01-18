@@ -1,7 +1,7 @@
 # Algorithmic Trading
 ## How to use
 
-https://github.com/Chrisdeleon91/HFT-Project-1
+https://github.com/Chrisdeleon91/Algorithmic-Trading-Project-1
 1. run hft_project.ipynb to open jupyter notebook
 2. run streamline_hft.py (using python, must pip install streamlit) in terminal,  type in command " streamlit run streamline_HFT.py" in terminal to view
 
